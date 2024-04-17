@@ -3289,7 +3289,11 @@ html[xmlns] .slider-wrap {
 		transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 	}
 
-	#logo img { max-height: 100%; }
+	#logo img { 
+		max-height: 100%; 
+		width: 120px;  
+		object-fit: contain;
+	}
 
 	.sub-menu-container,
 	.mega-menu-content {
